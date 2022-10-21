@@ -19,6 +19,7 @@ const sections = [
 	{title: "🛡️ | Restrict", rowId: `${usedPrefix + command} restrict`},
 	{title: "💬 | OnlyPv", rowId: `${usedPrefix + command} onlydm`},
 	{title: "👥 | OnlyGp", rowId: `${usedPrefix + command} onlygp`}
+	{title: "👎🏻 | 𝙰ntiArabes", rowId: `${usedPrefix + command} antiarabes`}
 	]
     },
 ]
