@@ -44,7 +44,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp))
                     user.exp = 0
                 if (!isNumber(user.diamond))
-                    user.diamond = 10
+                    user.diamond = 9999
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!('registered' in user))
@@ -78,7 +78,7 @@ export async function handler(chatUpdate) {
             } else
                 global.db.data.users[m.sender] = {
                     exp: 0,
-                    diamond: 10,
+                    diamond: 9999,
                     lastclaim: 0,
                     registered: false,
                     name: m.name,
